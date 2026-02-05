@@ -6,7 +6,7 @@ description: Archetypes & Chunks, the underlying foundation and storage structur
 
 As you look at your entities, you realise that many of them are similar. They even have an **identical structure**.
 
-And this is exactly where **archetypes** come into play. An **archetype** is something **like a table** in a database; it c**ontains all** [**entities**](entity.md) **with exactly the same component structure**. They are part of the [**World**](world.md) and each new combination of entities is stored in a new archetype.
+And this is exactly where **archetypes** come into play. An **archetype** is something **like a table** in a database; it **contains all** [**entities**](entity.md) **with exactly the same component structure**. They are part of the [**World**](world.md) and each new combination of entities is stored in a new archetype.
 
 You don't need to worry about creating them, it all happens on its own under the bonnet.
 

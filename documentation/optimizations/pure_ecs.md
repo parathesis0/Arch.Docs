@@ -6,7 +6,7 @@ description: PURE_ECS, making your entities even slimmer and faster.
 
 Entities contain some meta data by default to make it easier for you as a developer. If you leave them out, however, you can still squeeze out some performance.
 
-This is where `PURE_ECS` comes into play. This is a way of reducing the empty size of each [**entity**](../entity.md) to just **4 bytes**! **The way to make your** [**world**](../world.md) **even more efficient!** This means that even more entities fit into each individual chunk, which means that your **queries** **process** the **entities** even **more efficiently**. All entity operations speed up automatically. You want to bring millions of entities into battle? You can!
+This is where `PURE_ECS` comes into play. This is a way of reducing the empty size of each [**entity**](../entity.md) to just **8 bytes**! **The way to make your** [**world**](../world.md) **even more efficient!** This means that even more entities fit into each individual chunk, which means that your **queries** **process** the **entities** even **more efficiently**. All entity operations speed up automatically. You want to bring millions of entities into battle? You can!
 
 ## Setup
 
